@@ -52,10 +52,18 @@ body .r2 {
   width: 600px;
 }
 
+body .r2 #input234 {
+  padding-right: 120px !important;
+}
+
 body .r2 #as {
   width: 120px;
   border-radius: 0 5px 5px 0;
   margin-left: -120px;
+}
+
+body .r2 #as svg {
+  width: 27.74px;
 }
 
 body .r2 .r3 {
@@ -66,5 +74,10 @@ body .r2 .r3 {
 
 input {
   outline: none;
+}
+
+.div123456789 {
+  -webkit-box-shadow: inset 0 0 10px 5px #d4d4d4;
+          box-shadow: inset 0 0 10px 5px #d4d4d4;
 }
 /*# sourceMappingURL=style.css.map */

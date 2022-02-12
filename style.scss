@@ -39,10 +39,16 @@ body{
         margin-top: -532px !important;
         margin-left: 503px !important;
         width: 600px;
+        #input234{
+            padding-right: 120px !important;
+        }
         #as{
             width: 120px;
             border-radius: 0 5px 5px 0;
             margin-left: -120px;
+            svg{
+                width: 27.74px;
+            }
         }
         .r3{
             position: absolute;
@@ -53,4 +59,7 @@ body{
 }
 input{
     outline: none;
+}
+.div123456789{
+    box-shadow: inset 0 0 10px 5px rgb(212, 212, 212);
 }

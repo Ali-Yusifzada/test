@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    .container-fluid{
+        width: 100vw;
+        height: 100vh;
+        background-color: rgb(192, 192, 192);
+        display: grid;
+        place-items: center;
+        form{
+            border: 1.5px solid rgb(102, 102, 102);
+            padding: 25px !important;
+            border-radius: 5px;
+            display: flex;
+            justify-content: center;
+            padding-bottom: 465px !important;
+            .r1{
+                background-color: white;
+                padding: 20px 7px;
+                button{
+                    padding: 7px 0 !important;
+                    color: rgb(34, 34, 34);
+                    border: none;
+                    background-color: rgb(192, 192, 192);
+                    transition: 0.5s;
+                    &:hover{
+                        color: white;
+                        border-radius: 5px;
+                        background-color: rgb(0, 89, 255) !important;
+                    }
+                }
+            }
+        }
+    }
+    .r2{
+        position: absolute !important;
+        margin-top: -532px !important;
+        margin-left: 503px !important;
+        width: 600px;
+        #as{
+            width: 120px;
+            border-radius: 0 5px 5px 0;
+            margin-left: -120px;
+        }
+        .r3{
+            position: absolute;
+            margin-top: 223px !important;
+            margin-left: 392px;
+        }
+    }
+}
+input{
+    outline: none;
+}

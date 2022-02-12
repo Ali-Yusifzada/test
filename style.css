@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body .container-fluid {
+  width: 100vw;
+  height: 100vh;
+  background-color: silver;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+}
+
+body .container-fluid form {
+  border: 1.5px solid #666666;
+  padding: 25px !important;
+  border-radius: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-bottom: 465px !important;
+}
+
+body .container-fluid form .r1 {
+  background-color: white;
+  padding: 20px 7px;
+}
+
+body .container-fluid form .r1 button {
+  padding: 7px 0 !important;
+  color: #222222;
+  border: none;
+  background-color: silver;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+body .container-fluid form .r1 button:hover {
+  color: white;
+  border-radius: 5px;
+  background-color: #0059ff !important;
+}
+
+body .r2 {
+  position: absolute !important;
+  margin-top: -532px !important;
+  margin-left: 503px !important;
+  width: 600px;
+}
+
+body .r2 #as {
+  width: 120px;
+  border-radius: 0 5px 5px 0;
+  margin-left: -120px;
+}
+
+body .r2 .r3 {
+  position: absolute;
+  margin-top: 223px !important;
+  margin-left: 392px;
+}
+
+input {
+  outline: none;
+}
+/*# sourceMappingURL=style.css.map */

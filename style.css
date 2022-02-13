@@ -52,14 +52,10 @@ body .r2 {
   width: 600px;
 }
 
-body .r2 #input234 {
-  padding-right: 120px !important;
-}
-
 body .r2 #as {
   width: 120px;
   border-radius: 0 5px 5px 0;
-  margin-left: -120px;
+  margin-left: 0px;
 }
 
 body .r2 #as svg {
